@@ -1,0 +1,27 @@
+AoiSoilThematicMapID: 7785808
+CreationDateTime: "2/11/2022 9:23:54 AM"
+SdvAttributeName: "Available Water Capacity"
+AggregationMethod: "Dominant Component"
+TiebreakRule: 1
+UnitsofMeasure: "centimeters per centimeter"
+ComponentPercentCutoff: 0
+InterpretNullsAsZero: "False"
+BeginningMonth: ""
+EndingMonth: ""
+LayerOption: "Surface Layer"
+TopDepth: 0
+BottomDepth: 0
+DepthUnits: ""
+PrimaryDataSelectOptionLabel: ""
+PrimaryDataSelectOption: ""
+SecondaryDataSelectOptionLabel: ""
+SecondaryDataSelectOption: ""
+HorizonAggregationMethod: "Weighted Average"
+ResultDataType: "Float"
+ResultPrecision: 2
+ResultColumnName: "AWC"
+SdvAttributeDescription: "Available water capacity (AWC) refers to the quantity of water that the soil is capable of storing for use by plants. The capacity for water storage is given in centimeters of water per centimeter of soil for each soil layer. The capacity varies, depending on soil properties that affect retention of water. The most important properties are the content of organic matter, soil texture, bulk density, and soil structure, with corrections for salinity and rock fragments. Available water capacity is an important factor in the choice of plants or crops to be grown and in the design and management of irrigation systems. It is not an estimate of the quantity of water actually available to plants at any given time.
+
+Available water supply (AWS) is computed as AWC times the thickness of the soil. For example, if AWC is 0.15 cm/cm, the available water supply for 25 centimeters of soil would be 0.15 x 25, or 3.75 centimeters of water.
+
+For each soil layer, AWC is recorded as three separate values in the database. A low value and a high value indicate the range of this attribute for the soil component. A ""representative"" value indicates the expected value of this attribute for the component. For this soil property, only the representative value is used."

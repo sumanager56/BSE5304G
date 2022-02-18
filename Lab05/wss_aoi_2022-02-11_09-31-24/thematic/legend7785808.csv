@@ -1,0 +1,7 @@
+LegendText,RgbString
+"<= 0.13","#FF0000"
+"> 0.13 and <= 0.16","#FFD000"
+"> 0.16 and <= 0.18","#C4FA9E"
+"> 0.18 and <= 0.20","#4FBBFF"
+"> 0.20 and <= 0.22","#0000FF"
+"Not rated or not available","#DCDCDC"

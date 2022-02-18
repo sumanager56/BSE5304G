@@ -1,0 +1,2 @@
+0.1|1.5|3|8|14|20|"Sandstone fragments"|250|425|600|"Nonflat"|"Subrounded"|"Indurated"|"22142364"|"4783048"
+0.1|1.5|3|8|14|20|"Sedimentary rock fragments"|250|425|600|"Nonflat"|"Subrounded"|"Indurated"|"22142469"|"4783057"

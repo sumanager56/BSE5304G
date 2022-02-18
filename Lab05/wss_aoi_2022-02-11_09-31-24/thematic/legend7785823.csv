@@ -1,0 +1,7 @@
+LegendText,RgbString
+"<= 9.0000","#FF0000"
+"> 9.0000 and <= 23.0000","#FFD000"
+"> 23.0000 and <= 28.0000","#C4FA9E"
+"> 28.0000 and <= 78.0000","#4FBBFF"
+"> 78.0000 and <= 92.0000","#0000FF"
+"Not rated or not available","#DCDCDC"

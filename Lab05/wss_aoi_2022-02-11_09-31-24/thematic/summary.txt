@@ -1,0 +1,4 @@
+This directory contains data tables for thematic maps created in a Web Soil Survey session. For each Thematic Map ID number [nnnn] there are five files:   - parameters[nnnn].txt lists the parameters that were selected when creating the thematic map.  - legend[nnnn].csv is a table in comma-separated-value form describing the map legend     (class labels and colors).  - legend[nnnn].json has the same data as legend[nnnn].csv formatted in Java Script Object Notation (JSON).  - rating[nnnn].csv is a table in CSV form listing the rating value (numeric and/or string) and color     by mapunit key for the mapunit features in the AOI.  - rating[nnnn].json has the same information as rating[nnnn].csv formatted in JSON
+
+ID 7785808: Available Water Capacity
+ID 7785823: Saturated Hydraulic Conductivity (Ksat)

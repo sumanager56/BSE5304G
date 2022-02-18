@@ -1,0 +1,27 @@
+AoiSoilThematicMapID: 7785823
+CreationDateTime: "2/11/2022 9:26:00 AM"
+SdvAttributeName: "Saturated Hydraulic Conductivity (Ksat)"
+AggregationMethod: "Dominant Component"
+TiebreakRule: 1
+UnitsofMeasure: "micrometers per second"
+ComponentPercentCutoff: 0
+InterpretNullsAsZero: "False"
+BeginningMonth: ""
+EndingMonth: ""
+LayerOption: "Surface Layer"
+TopDepth: 0
+BottomDepth: 0
+DepthUnits: ""
+PrimaryDataSelectOptionLabel: ""
+PrimaryDataSelectOption: ""
+SecondaryDataSelectOptionLabel: ""
+SecondaryDataSelectOption: ""
+HorizonAggregationMethod: "Weighted Average"
+ResultDataType: "Float"
+ResultPrecision: 4
+ResultColumnName: "Ksat"
+SdvAttributeDescription: "Saturated hydraulic conductivity (Ksat) refers to the ease with which pores in a saturated soil transmit water. The estimates are expressed in terms of micrometers per second. They are based on soil characteristics observed in the field, particularly structure, porosity, and texture. Saturated hydraulic conductivity is considered in the design of soil drainage systems and septic tank absorption fields. 
+
+For each soil layer, this attribute is actually recorded as three separate values in the database. A low value and a high value indicate the range of this attribute for the soil component. A ""representative"" value indicates the expected value of this attribute for the component. For this soil property, only the representative value is used.
+
+The numeric Ksat values have been grouped according to standard Ksat class limits."
