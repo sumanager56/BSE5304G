@@ -484,4 +484,29 @@ ggplot() +
                        guide = "legend")+
   theme(text = element_text(size = 10),legend.position="top",legend.justification="right")+
   ggtitle("P export as impacted by change in fertilization immobilization rate")
+#Graduate homework
+#Surface P export
+P_TI01=mean(TIC01$area*(DPTI01$DF + DPTI01$DS))
+P_TI02=mean(TIC02$area*(DPTI02$DF + DPTI02$DS))
+P_TI03=mean(TIC03$area*(DPTI03$DF + DPTI03$DS))
+P_TI04=mean(TIC04$area*(DPTI04$DF + DPTI04$DS))
+P_TI05=mean(TIC05$area*(DPTI05$DF + DPTI05$DS))
+surface=sum(P_TI01,P_TI02,P_TI03,P_TI04,P_TI05)
+baseflow=mean(DPLT$LB)
+total=surface+baseflow
 
+reclass_df=c(1, 0.0046, 
+                2, 0.018,
+                3, 0.043,
+                4, 0.083,
+                5, 0.144)
+reclass_m=matrix(reclass_df,
+                    ncol = 2,
+                    byrow = TRUE)
+P_exp=reclassify(TIC,reclass_m)
+plot(P_exp)
+
+plot(TIC)
+summary(TIC)
+hist(TIC)
+class(TIC)
